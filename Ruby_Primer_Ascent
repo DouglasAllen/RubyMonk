@@ -1,0 +1,67 @@
+
+Blocks 
+
+00.  Introducing Blocks  
+01.  Yield  
+02.  Implicit and Explicit Blocks  
+03.  The Devil and the Details: Syntax  
+04.  Blocks, Procs, and Lambdas  
+ 
+Classes: Inheritance
+
+00.  Classification  
+01.  Understanding Inheritance  
+02.  Inheriting Class  
+03.  Redefining, overriding, and super  
+ 
+More Classes 
+
+00.  Instance Variables and Accessors  
+01.  Class Variables and Methods  
+02.  Equality of Objects  
+03.  Displaying Objects: puts and p, to_s and inspect  
+04.  Serializing  
+ 
+Advanced Arrays
+
+00.  Ripping the Guts  
+01.  Using the API  
+02.  Stacks and Queues  
+03.  Alternative Uses  
+ 
+Advanced Modules
+
+01.  The `included` Callback and the `extend` Method  
+02.  Wrapping Up Modules  
+ 
+Exceptions
+
+00.  Handling and Raising  
+01.  Tidying Things Up  
+02.  Throw and Catch  
+ 
+Declaring Data 
+
+01.  Literals  
+02.  Variables  
+03.  Constants  
+ 
+Collections 
+
+00.  Enumerators and Enumerables  
+01.  Iterate, Filtrate and Transform  
+02.  Building Collections  
+03.  Object References  
+ 
+Finding and Fixing Bugs 
+
+01.  The Debugging Primaries  
+02.  Logging  
+03.  Benchmarking Ruby Code  
+ 
+Ruby's Object Model
+
+02.  What is an object?  
+03.  Behaviour  
+04.  Singleton methods and metaclasses  
+05.  Cloning and freezing objects 
