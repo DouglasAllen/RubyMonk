@@ -1,0 +1,83 @@
+# Review
+puts [:i, :am, :a, :literal, :array, :of, :symbols].inspect
+
+def an_array_with_5_elements
+  [1,2,3,4,5]
+end
+
+def a_string_longer_than_10_characters
+  "this is my string"
+end
+
+def a_number_with_a_decimal_place
+  22.2
+end
+
+def an_array_of_hashes
+  [{one: 1}, {two: 2}]
+end
+
+def an_array_of_arrays
+  [[:one, 1], [:two,2]]
+end
+
+# A few new tricks
+def describe(something)
+  puts "I am a: #{something.class} and I look like: #{something}"
+end
+
+describe(1_024)
+describe(1.2e-30)
+
+def big_num
+  100_023_345_555_789_444_444_444
+end
+
+describe(big_num)
+
+describe("a string with a sci-notation float! #{1.2e-3}")
+describe('a boring, non-interpolated string. #{1.2e-3}')
+describe("a backslash-escaped string: \#{1.2e-3}")
+
+def quoted_string(to_be_quoted)
+  "Suuuure. You were just \"making sure the cake was comfortable\"."
+end
+
+def multi_line_string(*lines)
+  "Here are your lines!\n\nRamen\nSoba\nSpaghetti" 
+end
+
+def big_q_string(numerator, denominator)
+	"This %Q syntax is the ugliest one.\n4 out of 5 \"dentists\" agree." 
+end
+
+# Collections
+def repetitive_array_of_strings
+  ["Wow,", "this", "is", "a", "pretty", "long", "list", "of", "words", "and", "it", "took", "me", "a", "long", "time", "to", "type", "because", "of", "all", "those", "darn", "quote", "characters.", "Geez."]
+end
+
+def array_of_words_literal
+  %w(With this double-u shorthand it wasn't very hard at all to type
+out this list of words. Heck, I was even able to use double-quotes like "these"!)
+end
+
+ranger_smith = 55..75
+puts "ranger smith: #{ranger_smith}"
+
+start = 101
+finish = 201
+ranger_rick = start..finish
+puts "ranger rick: #{ranger_rick}"
+
+smith_points = ranger_smith.map {|n| n.to_s }
+puts "all together now! #{smith_points.join(", ")}"
+
+def one_less
+  1...10
+  # how can we change those dots to get 1 through 49?
+end
+
+def range_of_characters
+  "a".."z"
+  # an easy one!
+end
